@@ -1,0 +1,41 @@
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(85, 85, 85);
+    box-shadow: 3px 3px 3px rgba(41, 41, 41, 0.8);
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    color:white
+ }
+ .links{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 700;
+    color:white;
+    text-decoration: none;
+ }
+ .link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ }

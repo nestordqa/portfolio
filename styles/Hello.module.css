@@ -1,0 +1,21 @@
+.container{
+    width: 600px;
+    height: 100%;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paragraf{
+    color:rgb(70, 70, 70);
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    text-align: left;
+}
+.paragraf span{
+    color:rgb(70, 70, 70);
+    font-size: 60px;
+    font-family: 'Indie Flower', cursive;
+    padding-top: 20px;
+}
