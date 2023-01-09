@@ -1,7 +1,6 @@
 .container{
     width: 600px;
     height: 100%;
-    padding: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,5 +16,4 @@
     color:rgb(70, 70, 70);
     font-size: 60px;
     font-family: 'Indie Flower', cursive;
-    padding-top: 20px;
 }

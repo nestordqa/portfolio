@@ -25,10 +25,10 @@ const HomePage : NextComponentType = () =>{
                     to="smooth-link"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={-10}
                     duration={500}
                 >
-                    Button
+                    About me!
                 </Link>                
             </div>
         </div>
