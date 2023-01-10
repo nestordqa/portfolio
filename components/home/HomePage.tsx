@@ -1,5 +1,5 @@
 import {NextComponentType} from 'next';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import Image from 'next/image';
 import About from './About';
 import img from '../../public/nestor.png'

@@ -1,7 +1,7 @@
 import {NextComponentType} from 'next';
 import Card from './Card';
 import styles from '../../styles/About.module.css';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { animateScroll as scroll } from "react-scroll";
 
 
 const About : NextComponentType = () =>{
@@ -22,19 +22,21 @@ const About : NextComponentType = () =>{
 
                 I'm open to Job oportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to <span className={styles.span}>contact me</span> by the way you prefer, on <span className={styles.span}>sidebar</span> you are going to find all ways to contact me!
                 </p>
-                <div className={styles.button} onClick={()=>onScroll()}>
-                    Go below!             
-                </div>
+            </div>
+            <div className={styles.button} onClick={()=>onScroll()}>
+                Go up!             
             </div>
 
         </div>
         <div className={styles.stack}>
             <div className={styles.skill}>
+            <h2>const TechSkills = {'( ) =>'}</h2>
                 {tech.map((tech)=>{
                     return<Card name={tech}/>
                 })}
             </div>
             <div className={styles.skill}>
+            <h2>const SoftSkills = {'( ) =>'}</h2>
                 {soft.map((tech)=>{
                         return<Card name={tech}/>
                     })}

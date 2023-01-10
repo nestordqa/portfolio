@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height:max-content;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-bottom: 80px;
+    position: relative;
+    top: 50%;
+    left:5%
+
+}
