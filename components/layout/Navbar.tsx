@@ -1,8 +1,7 @@
 import {NextComponentType} from 'next';
 import styles from '../../styles/Navbar.module.css'
-import {useState} from 'react';
 import Link from 'next/link';
-import { AiOutlineHome, AiOutlineFundProjectionScreen, AiOutlineMail } from "react-icons/ai";
+import { AiOutlineHome, AiOutlineFundProjectionScreen } from "react-icons/ai";
 
 const Navbar : NextComponentType = ()=>{
     const style ={
@@ -44,15 +43,7 @@ const Navbar : NextComponentType = ()=>{
                     <AiOutlineFundProjectionScreen size={25} style={icon}/>
                 </div>
             </Link>
-
-            <Link href='contact' style={style}>
-                <div className={styles.link}>                
-                    <div>
-                        // contact    
-                    </div>            
-                    <AiOutlineMail size={25} style={icon}/>
-                </div>
-            </Link>            
+           
         </div>
                    
       </nav>

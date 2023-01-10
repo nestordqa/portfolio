@@ -2,11 +2,13 @@ import { NextComponentType } from 'next';
 import {projects} from '../../app/projects';
 import ProjectCard from './ProjectCard';
 import styles from '../../styles/Projects.module.css'
+import Contact from './Contact';
 
 const ProjectsList : NextComponentType = () =>{
     return(
     <>
     <div className={styles.container}>
+        
         {projects.map((project, index)=>{
             return(<ProjectCard 
                 name={project.name} 
@@ -19,6 +21,7 @@ const ProjectsList : NextComponentType = () =>{
                 )
         })
         }
+        <Contact/>
     </div>
     </>
     );

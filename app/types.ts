@@ -26,3 +26,12 @@ export interface ButtonProps{
     deploy: string,
     repository: string,
 }
+export interface Form{
+    name: string,
+    lastName: string,
+    code: number,
+    phone: number,
+    email: string,
+    content: string
+
+}

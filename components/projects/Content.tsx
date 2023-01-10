@@ -1,4 +1,3 @@
-import {NextComponentType} from 'next';
 import {ContentProps} from '../../app/types';
 import styles from '../../styles/Content.module.css';
 import Buttons from './Buttons';
