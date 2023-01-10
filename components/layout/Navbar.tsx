@@ -29,7 +29,7 @@ const Navbar : NextComponentType = ()=>{
             <Link href='/' style={style}>
                 <div className={styles.link}>
                     <div>
-                        // home
+                        {'// home'}
                     </div>                 
                     <AiOutlineHome size={25} style={icon}/>
                 </div>
@@ -38,7 +38,7 @@ const Navbar : NextComponentType = ()=>{
             <Link href='projects' style={style}>
                 <div className={styles.link}>
                     <div>
-                        // projects
+                        {'// projects'}
                     </div>                  
                     <AiOutlineFundProjectionScreen size={25} style={icon}/>
                 </div>

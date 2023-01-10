@@ -20,7 +20,7 @@ const About : NextComponentType = () =>{
                 that leads to the success of the overall product.  Check out some of my work in the <span className={styles.span}>Projects section</span>.<br/><br/>
                 I also like sharing content related to the stuff that I have learned over the years in Web Development so it can help other people of the Dev Community. Feel free to Connect or Follow me on my <span className={styles.span}>Linkedin</span> where I post useful content related to Web Development and Programming.<br/><br/>
 
-                I&apos;m open to Job oportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to <span className={styles.span}>contact me</span> by the way you prefer, on <span className={styles.span}>sidebar</span> you are going to find all ways to contact me!
+                I&apos;m open to Job oportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don&apos;t hesitate to <span className={styles.span}>contact me</span> by the way you prefer, on <span className={styles.span}>sidebar</span> you are going to find all ways to contact me!
                 </p>
             </div>
             <div className={styles.button} onClick={()=>onScroll()}>
