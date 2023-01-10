@@ -17,6 +17,7 @@ const ProjectsList : NextComponentType = () =>{
                 repository={project.repository}
                 img={project.img}
                 index={index}
+                key={index}
                 />
                 )
         })
